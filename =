@@ -1,0 +1,25 @@
+"use strict";
+
+var appInfo = {
+    name: "ian",
+    location: "melbouren"
+};
+var template = React.createElement(
+    "div",
+    null,
+    React.createElement(
+        "p",
+        null,
+        "name: ",
+        appInfo.name,
+        " "
+    ),
+    React.createElement(
+        "p",
+        null,
+        "location : ",
+        appInfo.location
+    )
+);
+ReactDOM.render(template, document.getElementById('app'));
+"use strict";
